@@ -1,0 +1,44 @@
+# Secrets and config
+.env
+.env.*
+config/
+
+# Personal runtime state
+current_state.json
+data/
+
+# Personal vault content (only _templates is safe to publish)
+vault/.obsidian/
+vault/conversations/
+vault/journal/
+vault/memory/
+vault/reflections/
+vault/notes/
+vault/profile.md
+vault/quote-book.md
+vault/imports/
+
+# Audio test artifacts
+*.mp3
+*.wav
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node / PWA
+web/node_modules/
+web/dist/
+web/*.tsbuildinfo
+web/vite.config.js
+web/vite.config.d.ts
+
+# OS
+.DS_Store
+Thumbs.db
